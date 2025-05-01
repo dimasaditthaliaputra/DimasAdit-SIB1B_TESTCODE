@@ -1,9 +1,10 @@
 
 # Java Assignment Test Case
 
-**Name**: Dimas Adit Thalia Putra  
-**Class**: SIB - 1B  
-**NIM**: 244107060037  
+**Name**    : Dimas Adit Thalia Putra  
+**Class**   : SIB - 1B  
+**NIM**     : 244107060037  
+**Date**    : 01Mei2025
 
 ## Description
 Repositori ini berisi test case dan implementasi berbagai algoritma struktur data dalam Java. Kode yang disediakan mencakup algoritma seperti pencarian sekuensial dan teknik pengurutan seperti quick sort, shell sort, dan lainnya.
