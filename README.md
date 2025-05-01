@@ -29,7 +29,7 @@ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar;src" org.junit.runner
 ```
 
 ### Example:
-Ganti {class} dengan nama class yang ingin diuji. Misalnya, jika Anda ingin menjalankan test untuk SequentialSearch, gunakan:
+Ganti {class} dengan nama class yang ingin diuji. Misalnya, jika ingin menjalankan test untuk SequentialSearch, gunakan:
 
 ```bash
 java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar;src" org.junit.runner.JUnitCore dataStructure.SequentialSearchTest
