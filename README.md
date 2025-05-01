@@ -6,26 +6,29 @@
 **NIM**: 244107060037  
 
 ## Description
-This repository contains the test cases and implementations of various data structure algorithms in Java. The provided code includes algorithms such as sequential search and sorting techniques like quick sort, shell sort, and others.
+Repositori ini berisi test case dan implementasi berbagai algoritma struktur data dalam Java. Kode yang disediakan mencakup algoritma seperti pencarian sekuensial dan teknik pengurutan seperti quick sort, shell sort, dan lainnya.
+
+## Programming Language
+![Java](https://img.shields.io/badge/Language-Java%2022.0.2-blue.svg)
 
 ## How to Compile and Run the Code
 
 ### Compilation Command:
-To compile the Java code, use the following command:
+Untuk mengkompilasi kode Java, gunakan perintah berikut:
 
 ```bash
 javac -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" "src/dataStructure/*.java"
 ```
 
 ### Running the Tests:
-To run the test cases with JUnit, use the following command:
+Untuk menjalankan test case dengan JUnit, gunakan perintah berikut:
 
 ```bash
 java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar;src" org.junit.runner.JUnitCore dataStructure.{class}
 ```
 
 ### Example:
-Replace `{class}` with the class name you want to test. For example, if you want to run tests for `SequentialSearch`, use:
+Ganti {class} dengan nama class yang ingin diuji. Misalnya, jika Anda ingin menjalankan test untuk SequentialSearch, gunakan:
 
 ```bash
 java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar;src" org.junit.runner.JUnitCore dataStructure.SequentialSearchTest
