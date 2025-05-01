@@ -3,8 +3,8 @@ package dataStructure;
 public class BubbleSort {
     // Method bubblesort dengan control jumlah iterasi
     public int[] bubbleSort(int[] array, int maxIterasi) {
-        // Memeriksa apakah array kosong atau hanya memiliki satu elemen
-        if (array == null || array.length < 2) {
+        // Memeriksa apakah array kosong, hanya memiliki satu elemen atau maxIterasi adalah negatif
+        if (array == null || array.length < 2 || maxIterasi < 0) {
             return array;
         }
 
